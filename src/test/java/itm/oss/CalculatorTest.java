@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 @DisplayName("Calculator tests for OSS class")
 class CalculatorTest {
 
-    private final Calculator calc = new Calculator();
+    private final Calculator calc = new Calculator()
 
     @Test
     @DisplayName("Test for function add")
